@@ -12,14 +12,13 @@ angular.module('com.datatorrent.ui.appdata.widgets.exampleWidget', [
 **/
 .factory('exampleWidget', function(exampleWidgetDataModel) {
 
-  function exampleWidgetDefinition() {
-    this.name = 'example widget';
-    this.title = 'An example widget';
-    this.directive = 'example-widget-directive';
-    this.dataModelType = exampleWidgetDataModel;
-    this.dataAttrName = 'data';
-  }
-  return exampleWidgetDefinition;
+  return {
+    name: 'exampleWidget',
+    title: 'An example widget',
+    directive: 'example-widget-directive',
+    dataModelType: exampleWidgetDataModel,
+    dataAttrName: 'data'
+  };
 
 })
 

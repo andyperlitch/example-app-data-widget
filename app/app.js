@@ -7,7 +7,9 @@ angular.module('exampleWidgetApp', [
 .controller('ExampleWidgetCtrl', function($scope, exampleWidget) {
 
   $scope.dashboardOptions = {
-    widgetDefinitions: [exampleWidget]
+    widgetDefinitions: [exampleWidget],
+    storage: localStorage,
+    storageId: 'example1234'
   };
 
 });

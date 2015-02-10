@@ -13,7 +13,7 @@ angular.module('com.datatorrent.ui.appdata.widgets.exampleWidget', [
 .factory('exampleWidget', function(exampleWidgetDataModel) {
 
   return {
-    name: 'example widget',
+    name: 'exampleWidget',
     title: 'An example widget',
     directive: 'example-widget-directive',
     dataModelType: exampleWidgetDataModel,

@@ -7,7 +7,11 @@ Widget Spec
 ------------------
 A custom widget must be in the form of a directory with the following requirements:
 
-1. It must have a `package.json` file with values in the following fields:.
+1. It must have a `package.json` file with values in the following fields:
+    
+    - **name** ( `String` )
+        
+        This field **MUST** match the `name` specified by your [widget definition object](https://github.com/DataTorrent/malhar-angular-dashboard#widget-definition-objects) (see below).
 
     - **main** ( `String[]` or `String` )
     
