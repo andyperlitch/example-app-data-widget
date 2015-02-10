@@ -72,3 +72,7 @@ A custom widget must be in the form of a directory with the following requiremen
 How this example is set up
 --------------------------
 This example represents a realistic implementation of a custom widget because it sets up a development environment, build tasks, and tests.
+
+To run this example, run the following command:
+
+    gulp watch

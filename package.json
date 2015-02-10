@@ -19,6 +19,7 @@
     "gulp-less": "^2.0.1",
     "gulp-usemin": "^0.3.11",
     "main-bower-files": "^2.5.0",
-    "merge-stream": "^0.1.7"
+    "merge-stream": "^0.1.7",
+    "sort-stream": "^1.0.1"
   }
 }

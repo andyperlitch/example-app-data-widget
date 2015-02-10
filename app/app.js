@@ -1,10 +1,13 @@
 'use strict';
 
 angular.module('exampleWidgetApp', [
-  'ui.dashboard'
+  'ui.dashboard',
+  'com.datatorrent.ui.appdata.widgets.exampleWidget'
 ])
-.controller('ExampleWidgetCtrl', function($scope) {
+.controller('ExampleWidgetCtrl', function($scope, exampleWidget) {
 
-  console.log('Testing');
+  $scope.dashboardOptions = {
+    widgetDefinitions: [exampleWidget]
+  };
 
 });
